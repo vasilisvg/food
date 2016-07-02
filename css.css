@@ -5,6 +5,11 @@ body {
 	margin: 0;
 	padding: 1vw 4vw 4vw;
 	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+		-webkit-font-feature-settings: "kern" 1, "liga" on, "dlig" on;
+	   	   -moz-font-feature-settings: "kern" 1, "liga" on, "dlig" on;
+	            font-feature-settings: "kern" 1, "liga" on, "dlig" on;
+		-webkit-text-size-adjust: 100%;
 }
 h1, h2, h3 {
 	font-family: "Nara 6", georgia, serif;
