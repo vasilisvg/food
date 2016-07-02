@@ -27,7 +27,7 @@ header h1 {
 		</aside>
 		<div>
 			<h2>What?</h2>
-			<p>Instead of throwing away the leftovers from a nice <a href="../roast-chicken/">roast chicken</a>, you can cook it into a broth. This saves you one stock cube.</p>
+			<p>Instead of throwing away the leftovers from a nice <a href="../roast-chicken/">roast chicken</a>, you can cook it into a broth. This saves you one stock cube, if you’re cynical. It gives you more taste if you’re not.</p>
 			<h2>Prep</h2>
 			<p>Eat the <a href="../roast-chicken/"><span class="item-1">chicken</span></a> until only the bones are left.</p>
 
