@@ -48,7 +48,7 @@ if ($home !== 1) {
 	<article>
 		<a href="<?php echo $path; ?>fakies-fuck-yes/">
 			<h2>Fakiès? Fuck Yes!</h2>
-			<p>Pork tenderloin marinaded in wine.</p>
+			<p>Greek lentil soup. Perfect for the end of the month.</p>
 		</a>
 	</article>
 	<article>

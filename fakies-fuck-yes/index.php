@@ -30,6 +30,7 @@ header h1 {
 		<div>
 			<h2>What?</h2>
 			<p>A long time ago when I was 18 I spent a summer with a bunch of punks on an island in Greece. One day we decided to make lentil soup. And we were all pretty excited about it because it tastes to nice. So all day long we told each other how much we like lentils, and how happy we were that tonight we would eat lentils. The Greek word for lentils is <em>fakiès</em>. There was this English girl who, after a while, asked us what the incredible thing was we were talking about. All she heard all day was <em>mumblemumble, fuck yes! Mumblemumble, fuck yes!</em></p>
+			<p>As a student I used to eat this every month. Back then I always had some leftover days when all the money was gone, and this soup is perfect to overcome this problem.</p>
 			<h2>Prep</h2>
 			<p>Chop the <span class="item-2">onions</span>, press the <span class="item-3">garlic</span>, wash the <span class="item-4">lentils</span>.</p>
 
