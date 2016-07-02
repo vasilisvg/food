@@ -31,7 +31,7 @@ header h1 {
 				</p>
 			</blockquote>
 			<p>While you’re still mixing, add the <span class="item-2">sugar</span> slowly, sprinkling it into the egg white from a spoon, until the mixture is stiff and glossy. This could take a while. No need to hurry.</p>
-			<p>Put the mixture into a large pastry bag and plot as many dots as you can onto the baking trays.</p>
+			<p>Put the mixture into a large pastry bag and plot as many dots as you can onto the baking tray.</p>
 			<p>Put the tray in the oven. Wait. After 30 minutes they should be about done. They’re done when they’re dry from the outside and can be easily removed from the tray.</p>
 		</div>
 	</article>

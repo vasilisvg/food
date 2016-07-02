@@ -23,7 +23,7 @@ include '../head.php';
 		</aside>
 		<div>
 			<h2>Prep</h2>
-			<p>Aks the fish seller to clean the <span class="item-1">fish</span>. Cover the <span class="item-1">dorade</span> with a very thick layer of <span class="item-2">salt</span>. Put it in a colander and place it in the fridge. You want to place a plate under the collander. The <span class="item-1">fish</span> will leak.</p>
+			<p>Aks the fish seller to clean the <span class="item-1">fish</span>. Cover the <span class="item-1">dorade</span> with a very thick layer of <span class="item-2">salt</span>. Put it in a colander and place it in the fridge. You want to place a deep plate under the collander. The <span class="item-1">fish</span> will leak, which is what we want. What it leaks now, it can’t leak on the BBQ.</p>
 
 			<h2>Cooking</h2>
 			<p>Put the <span class="item-1">fish</span> (with its <span class="item-2">salt</span> crust) on the bbq. Turn it around. Repeat until it’s done. Somebody once told me that the fish is done when the colour of the big bone on the inside changes to white. I never tried it, I just take a good guess.</p>

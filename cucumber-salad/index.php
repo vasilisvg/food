@@ -25,6 +25,7 @@ include '../head.php';
 
 			<h2>Cooking</h2>
 			<p>Don’t cook it. Serve raw, in a bowl.</p>
+
 		</div>
 	</article>
 <?php include '../footer.php'; ?>

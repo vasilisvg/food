@@ -9,7 +9,7 @@
 <?php
 include '../css.css';
 $h = mt_rand(0,259);
-while($i < 14) {
+while($i < 15) {
 	$h += 83;
 	$s = mt_rand(50,60);
 	$l = 89;

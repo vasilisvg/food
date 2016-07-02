@@ -27,8 +27,8 @@ header h1 {
 		</aside>
 		<div>
 			<h2>Prep</h2>
-			<p>Put the <span class="item-1">eggs</span> and the <span class="item-2">egg yolk</span> until well blended. Add the <span class="item-3">cheese</span> and quite some <span class="item-6">pepper</span> and stirr well.</p>
-			<p>Heat the <span class="item-4">bacon</span> slowly until much of the fat is rendered and the meat has browned a little. This can take up to 20 minutes. Put a lid on it when it looks like it’s finished. Use a large pan, later on you want to add the <span class="item-7">spaghetti</span>.</p>
+			<p>Stir the <span class="item-1">eggs</span> and the <span class="item-2">egg yolk</span> until well blended. Add the <span class="item-3">cheese</span> and quite some <span class="item-6">pepper</span> and stir well.</p>
+			<p>Heat the <span class="item-4">bacon</span> slowly until much of the fat is rendered and the meat has browned a little. This can take up to 20 minutes. Put a lid on it when it looks like it’s finished. Use a large pan, later on you want to add the <span class="item-7">spaghetti</span> to it.</p>
 			<p>If the <span class="item-5">peas</span> are fresh, cook them. If they only need to be heated, don’t.</p>
 			<p>Cook the <span class="item-7">spaghetti</span> with quite some salt</p>
 			<p>When the <span class="item-7">spaghetti</span> is done you need: the colander on a ceramic bowl, the <span class="item-5">peas</span> in the colander, two wooden spoons, the baked <span class="item-4">bacon</span>, and the <span class="item-1">egg</span> and <span class="item-3">cheese</span> mixture, all at hand.</p>

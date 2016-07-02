@@ -113,7 +113,7 @@ if ($home !== 1) {
 	<article>
 		<a href="<?php echo $path; ?>puree-di-papa/">
 			<h2>Puree di Papa</h2>
-			<p>Mashed potatoes with Di Papa Saus in the oven.</p>
+			<p>Mashed potatoes with Di Papa Sauce in the oven.</p>
 		</a>
 	</article>
 	<article>

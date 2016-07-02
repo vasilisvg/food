@@ -29,6 +29,8 @@ header h1 {
 			</ul>
 		</aside>
 		<div>
+			<h2>What?</h2>
+			<p>When I was 18 I traveled around Turkey on a very, very low budget, together with Mek, my Canadian friend. The only thing we ate was Mercimek Çorba, a smooth, delicious — and very cheap — lentil soup. They sell it everywhere, and they serve it with lots of bread. Every time I eat in a Turkish restaurant I order it. And every now and then I cook it myself.</p>
 			<h2>Prep</h2>
 			<p>Eat a <a href="../roast-chicken/">chicken</a>, make <a href="../chicken-broth/"><span class="item-5">broth</span></a> from the leftovers.</p>
 
@@ -39,7 +41,7 @@ header h1 {
 			<h2>Cooking</h2>
 			<p>Fry the <span class="item-2">onion</span> and the <span class="item-3">carrots</span> in the butter until they’re soft (not brown yet). Add the <span class="item-4">lentils</span> and the <span class="item-5">broth</span>. Add the <span class="item-6">cumin</span>, the <span class="item-7">paprika powder</span>, the <span class="item-8">pepper</span> and the <span class="item-9">salt</span>. If you’re scared of <span class="item-6">cumin</span>, you can add it later, to taste.</p>
 
-			<p>Let it simmer for a while on low heat until the lentils are soft — which doesn’t take too long with red lentils. Pour the soup into a food blender and blend it until it’s really smooth. Serve hot. Squeeze <span class="item-10">lemon</span> into the soup. Eat with bread.</p>
+			<p>Let it simmer for a while on low heat until the <span class="item-4">lentils</span> are soft — which doesn’t take too long with red lentils. Pour the soup into a food blender and blend it until it’s really smooth. Serve hot. Squeeze <span class="item-10">lemon</span> into the soup. Eat with bread.</p>
 		</div>
 	</article>
 <?php include '../footer.php'; ?>

@@ -40,7 +40,7 @@ header h1 {
 			<p>Put <span class="item-1">olive oil</span> in a pan over medium heat. Add the <span class="item-2">oregano</span> and <span class="item-3">thyme</span>. After a minute or so, add the <span class="item-4">onions</span> and the <span class="item-5">garlic</span>.</p>
 			<p>After five minutes or so put the pan on high heat and add the <span class="item-6">meat</span>. When the <span class="item-6">meat</span> is brown, add the <span class="item-7">wine</span>. When it’s cooking, add the <span class="item-8">tomatoes</span>, <span class="item-9">olives</span>, <span class="item-10">feta</span>, <span class="item-11">pepper</span> and <span class="item-12">salt</span>.</p>
 			<p>Let it simmer for quite a while</p>
-			<p>Cook the <span class="item-13">pasta</span>, and serve with <span class="item-14">grated cheese</span>, if you like.</p>
+			<p>Cook the <span class="item-13">pasta</span>, and serve with <span class="item-14">grated cheese</span>, if you like. Alternatively you can use the sauce to create <a href="../puree-di-papa/">Puree di Papa</a></p>
 		</div>
 	</article>
 <?php include '../footer.php'; ?>

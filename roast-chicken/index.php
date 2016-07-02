@@ -41,7 +41,7 @@ header h1 {
 			<h2>Cooking</h2>
 			<p>Turn on the grill. Put the rotisserie (indeed, with the chicken on it) in place. Now add the <span class="item-3">thyme</span> to the mixture of wine and oil and pour it over the rotating chicken. Repeat this every ten minutes.</p>
 
-			<p>Squeeze out the juice from the <span class="item-8">lemon</span>, dissolve quite some salt in it. Pour this over the chicken twenty minutes before it’s done. When the chicken is done, don’t throw away the drippings, you want to use it for the <a href="../chicken-broth/">chicken broth</a>.</p>
+			<p>Squeeze out the juice from the <span class="item-8">lemon</span>, dissolve quite some <span class="item-10">salt</span> in it. Pour this over the chicken twenty minutes before it’s done. When the chicken is done, don’t throw away the drippings, you want to use it for the <a href="../chicken-broth/">chicken broth</a>.</p>
 
 			<p>How long the chicken should be grilled depends on its weight. Seventy minutes is enough in my oven, with a chicken of 1.2 to 1.4 kilos.</p>
 
