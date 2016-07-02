@@ -16,10 +16,8 @@ h1 {
 	margin: 0;
 }
 h2 {
-	font-weight: 400;
 	font-size: 2em;
 	margin: 1em 0 .25em;
-	font-style: oblique;
 }
 h2:first-child {
 	margin-top: 0;
@@ -54,7 +52,7 @@ p span {
 	line-height: .8;
 	display: inline-block;
 	text-decoration: inherit;
-	
+
 }
 .recipe {
 	display: flex;
