@@ -54,6 +54,7 @@ p span {
 	line-height: .8;
 	display: inline-block;
 	text-decoration: inherit;
+	
 }
 .recipe {
 	display: flex;
