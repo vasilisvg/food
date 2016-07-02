@@ -1,0 +1,130 @@
+html {
+	font: 100%/1.414 "Nara 6", georgia, serif;
+}
+body {
+	margin: 0;
+	padding: 1vw 4vw 4vw;
+	overflow-x: hidden;
+}
+h1, h2, h3 {
+	font-family: "Nara 6", georgia, serif;
+	font-weight: 300;
+	font-size: 17vw;
+	line-height: 1;
+}
+h1 {
+	margin: 0;
+}
+h2 {
+	font-weight: 400;
+	font-size: 2em;
+	margin: 1em 0 .25em;
+	font-style: oblique;
+}
+h2:first-child {
+	margin-top: 0;
+}
+h2 + p {
+	margin-top: 0;
+}
+p {
+	max-width: 35em;
+}
+blockquote {
+	font-style: oblique;
+	max-width: 35em;
+	box-sizing: border-box;
+	margin: 0;
+	padding-left: 1.5em;
+}
+
+header h1 {
+	margin: -.3em -.3em 0;
+	white-space: nowrap;
+}
+header p {
+	font-family: "Nara 5", georgia, serif;
+	font-weight: 500;
+	font-style: italic;
+	margin: 0;
+	line-height: 1;
+	font-size: calc(1em + 1vw + 1vh);
+}
+p span {
+	line-height: .8;
+	display: inline-block;
+	text-decoration: inherit;
+}
+.recipe {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	min-height: 100vh;
+	min-height: calc(100vh - 2em);
+	align-content: flex-start;
+	margin-bottom: 2em;
+}
+header {
+	min-width: 100%;
+	pointer-events: none
+}
+.recipe aside {
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin-right: 4vw;
+	margin-bottom: 3em;
+	max-width: 25%;
+}
+@media (max-width: 43.5em) {
+	.recipe aside {
+		order: 1;
+		max-width: 100%;
+	}
+}
+.recipe div {
+	flex-grow: 3;
+	flex-shrink: 1;
+	flex-basis: 66%;
+	margin-bottom: 3em;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+aside li:before {
+	content: '• ';
+	position: absolute;
+	margin-left: -.65em;
+}
+
+.recipe-list div {
+	-webkit-columns: 15em;
+	-moz-columns: 15em;
+	columns: 15em;
+	-webkit-column-gap: 4vw;
+	-moz-column-gap: 4vw;
+	column-gap: 4vw;
+}
+.recipe-list article {
+	display: inline-block;
+	width: 100%;
+}
+.recipe-list a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	width: 100%;
+	mix-blend-mode: darken;
+}
+.recipe-list a:hover,
+.recipe-list a:focus {
+	background-color: hsla(0,50%,80%,.5);
+}
+.recipe-list h2 {
+	margin: 0;
+}
+.recipe-list h1 {
+	font-size: 23.3vw;
+}
