@@ -1,12 +1,35 @@
 <style>
 <?php
+function isPrime($num) {
+    if($num == 1) {
+        return false;
+    }
+
+    if($num == 2) {
+        return true;
+    }
+
+    if($num % 2 == 0) {
+        return false;
+    }
+
+    for($i = 3; $i <= ceil(sqrt($num)); $i = $i + 2) {
+
+        if($num % $i == 0)
+
+            return false;
+    }
+    return true;
+}
 $h = mt_rand(0,259);
 $i=0;
 while($i < 14) {
-	$h += 83;
-	$s = mt_rand(50,60);
-	$l = 89;
-	echo ".recipe-list article:nth-of-type(".$i."n) a:hover, .recipe-list article:nth-of-type(".$i."n) a:focus { background: hsl($h, $s%, $l%); }";
+	if (isPrime($i) == 1) {
+		$h += 83;
+		$s = mt_rand(50,60);
+		$l = 89;
+		echo ".recipe-list article:nth-of-type(".$i."n) a:hover, .recipe-list article:nth-of-type(".$i."n) a:focus { background: hsl($h, $s%, $l%); }";
+	}
 	$i++;
 }
 if ($home !== 1) {
@@ -25,6 +48,12 @@ if ($home !== 1) {
 		<a href="<?php echo $path; ?>chili-con-carne/">
 			<h2>Chili con Carne</h2>
 			<p>Stew with red wine, served with tiny pasta (or whatever you like with stew)</p>
+		</a>
+	</article>
+	<article>
+		<a href="<?php echo $path; ?>cucumber-salad/">
+			<h2>Cucumber Salad</h2>
+			<p>Minimal raw food</p>
 		</a>
 	</article>
 	<article>
@@ -91,6 +120,12 @@ if ($home !== 1) {
 		<a href="<?php echo $path; ?>roast-chicken/">
 			<h2>Roast Chicken</h2>
 			<p>With thyme. Excellent base for chicken stock.</p>
+		</a>
+	</article>
+	<article>
+		<a href="<?php echo $path; ?>salade-de-carottes/">
+			<h2>Salade de Carottes</h2>
+			<p>Carrots.</p>
 		</a>
 	</article>
 	<article>
