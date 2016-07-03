@@ -135,6 +135,12 @@ if ($home !== 1) {
 		</a>
 	</article>
 	<article>
+		<a href="<?php echo $path; ?>tender-tenderloin/">
+			<h2>Tender Tenderloin</h2>
+			<p>Dorade in a crust of salt for your barbecue pleasure.</p>
+		</a>
+	</article>
+	<article>
 		<a href="<?php echo $path; ?>tsipoura/">
 			<h2>Tsipoúra</h2>
 			<p>Dorade in a crust of salt for your barbecue pleasure.</p>
