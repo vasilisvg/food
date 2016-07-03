@@ -17,7 +17,7 @@ header h1 {
 			<h2>Ingredients</h2>
 			<ul>
 				<li><span class="item-1">4 large egg whites</span></li>
-				<li><span class="item-2">140 gr (icing) sugar</span></li>
+				<li><span class="item-2">140 gr (icing) sugar (or more)</span></li>
 			</ul>
 		</aside>
 		<div>
