@@ -130,69 +130,6 @@ AddDefaultCharset utf-8
 #
 #     https://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewriteoptions
 
-<IfModule mod_rewrite.c>
-
-    # (1)
-    RewriteEngine On
-
-    # (2)
-    Options +FollowSymlinks
-
-    # (3)
-    # Options +SymLinksIfOwnerMatch
-
-    # (4)
-    # RewriteBase /
-
-    # (5)
-    # RewriteOptions <options>
-
-</IfModule>
-
-# ----------------------------------------------------------------------
-# | Forcing `https://`                                                 |
-# ----------------------------------------------------------------------
-
-# Redirect from the `http://` to the `https://` version of the URL.
-# https://wiki.apache.org/httpd/RewriteHTTPToHTTPS
-
-<IfModule mod_rewrite.c>
-   RewriteEngine On
-   RewriteCond %{HTTPS} !=on
-   RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
-</IfModule>
-
-# ----------------------------------------------------------------------
-# | Suppressing / Forcing the `www.` at the beginning of URLs          |
-# ----------------------------------------------------------------------
-
-# The same content should never be available under two different
-# URLs, especially not with and without `www.` at the beginning.
-# This can cause SEO problems (duplicate content), and therefore,
-# you should choose one of the alternatives and redirect the other
-# one.
-#
-# By default `Option 1` (no `www.`) is activated.
-# http://no-www.org/faq.php?q=class_b
-#
-# If you would prefer to use `Option 2`, just comment out all the
-# lines from `Option 1` and uncomment the ones from `Option 2`.
-#
-# (!) NEVER USE BOTH RULES AT THE SAME TIME!
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-# Option 1: rewrite www.example.com → example.com
-
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{HTTPS} !=on
-    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
-</IfModule>
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
 # ######################################################################
 # # SECURITY                                                           #
 # ######################################################################
