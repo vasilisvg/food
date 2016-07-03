@@ -34,7 +34,7 @@ header h1 {
 
 			<p>Use a mixer or a masher to mash the <span class="item-1">potatoes</span>. Take your time to mash it as finely as possible. You do not want any lumps. <em>Puree</em> sounds smooth, and it should be smooth. Keep an eye on the <span class="item-2">milk</span>! Add the <span class="item-5">egg yolks</span>, <span class="item-4">pepper and salt</span>, and keep mashing.</p>
 
-			<p>When the <span class="item-3">butter</span> has melted, and the <span class="item-2">milk</span> started cooking, slowly pour it into the potatoes while you keep mashing. The amount of milk you want to add depends on what you want to do with it. If you want to create <a href="../puree-di-papa">Puree di Papa</a> you'll need less than when you want to eat it with <a href="../drunken-cow/">Drunken Cow</a>. Taste it, you probably need to add more <span class="item-4">salt</span>.</p>
+			<p>When the <span class="item-3">butter</span> has melted, and the <span class="item-2">milk</span> started cooking, slowly pour it into the potatoes while you keep mashing. The amount of milk you want to add depends on what you want to do with it. If you want to create <a href="../puree-di-papa">Puree di Papa</a> you'll need less than when you want to eat it with <a href="../drunken-cow/">Drunken Cow</a> or <a href="../tender-tenderloin/">Tender Tenderloin</a>. Taste it, you probably need to add more <span class="item-4">salt</span>.</p>
 
 			<p>Use the leftover egg whites to create <a href="../meringues/">meringues</a>.</p>
 		</div>
