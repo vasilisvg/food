@@ -47,7 +47,7 @@ if ($home !== 1) {
 	<article>
 		<a href="<?php echo $path; ?>chili-con-carne/">
 			<h2>Chili con Carne</h2>
-			<p>Stew with red wine, served with tiny pasta (or whatever you like with stew)</p>
+			<p>The classic, but this one is without chili.</p>
 		</a>
 	</article>
 	<article>
