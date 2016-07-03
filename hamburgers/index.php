@@ -34,7 +34,7 @@ header h1 {
 			<p>Select and prepare the <span class="item-9">stuff</span> you want on your hamburger, like salad, tomatoes, mustard, rucola, pickles, or whatever.</p>
 
 			<h2>Cooking</h2>
-			<p>Turn on the grill. Or the barbecue. On my grill, with the door a bit open, the hamburgers will need about 14 minutes per side. On a hot barbecue they’re done much faster. Maybe four minutes per side, not much more.</p>
+			<p>Turn on the grill. Or the barbecue. On my grill, with the door open a bit, the hamburgers will need about 14 minutes per side. On a hot barbecue they’re done much faster. Maybe four minutes per side, not much more.</p>
 
 			<p>Eat with or without <span class="item-8">bread</span>, with or without <span class="item-9">stuff</span>, with or without Flemish fries. Remember to use the leftover <span class="item-5">egg white</span> to create some <a href="../meringues/">meringues</a></p>
 		</div>
