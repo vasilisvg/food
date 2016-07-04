@@ -1,3 +1,6 @@
+<?php
+include 'headers.php';
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,6 +16,7 @@ include 'css.css';
 	font-size: 25vw;
 }
 	</style>
+	<!-- <link rel="manifest" href="manifest.json"> -->
 </head>
 <body class="recipe-list">
 	<header>

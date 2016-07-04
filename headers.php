@@ -1,0 +1,4 @@
+<?php
+header('Strict-Transport-Security: max-age=15768000');
+header('X-Xss-Protection: 1; mode=block');
+?>
