@@ -29,7 +29,7 @@ header h1 {
 
 			<h2>Cooking</h2>
 			<p>Preheat the oven on 180-200°C.</p>
-			<p>Grease a big oven dish with <span class="item-1">olive oil</span>. Add a layer of <span class="item-2">mashed potatoes</span>. Add a layer of <span class="item-1">Di Papa sauce</span>, using a spatula with holes. The meat sauce should not be too watery. Add a layer of <span class="item-4">grated cheese</span>. Add a final layer of <span class="item-2">mashed potatoes</span>.</p>
+			<p>Grease a big oven dish with <span class="item-1">olive oil</span>. Add a layer of <span class="item-2">mashed potatoes</span>. Add a layer of <span class="item-3">Di Papa sauce</span>, using a spatula with holes. The meat sauce should not be too watery. Add a layer of <span class="item-4">grated cheese</span>. Add a final layer of <span class="item-2">mashed potatoes</span>.</p>
 			<p>Put it in the over for an hour</p>
 			<p>It will need some time to cool down before you eat it, which is frustrating. But you should, you will burn your mouth.</p>
 		</div>
