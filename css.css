@@ -122,3 +122,30 @@ aside li:before {
 .recipe-list h1 {
 	font-size: 23.3vw;
 }
+
+
+table {
+	table-layout: auto;
+	border-collapse: collapse;
+	min-width: 20em;
+}
+table + table {
+	margin-top: 2em;
+}
+th {
+	text-align: left;
+	font-weight: normal;
+	font-style: italic;
+}
+th, td {
+	border-top: 1px solid black;
+	padding: .2em .5em .2em 0;
+}
+thead th,
+th[colspan] {
+	font-style: normal;
+	border-top: 0;
+}
+th[colspan] {
+	border-top: 3px double black;
+}
