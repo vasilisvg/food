@@ -17,7 +17,7 @@ while($i < 15) {
 	$h += 83;
 	$s = mt_rand(50,60);
 	$l = 89;
-	echo ".item-$i, tr:nth-of-type(".$i."n) th[colspan], tr:nth-of-type(".$i."n):hover { background: hsl($h, $s%, $l%); }";
+	echo ".item-$i, tr:nth-of-type(".($i+1)."n) th[colspan], tr:nth-of-type(".$i."n):hover, table:nth-of-type(".$i."n) caption { background: hsl($h, $s%, $l%); }";
 	$i++;
 }
 ?>

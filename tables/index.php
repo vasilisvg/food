@@ -10,13 +10,89 @@ function ftoc($a) {
 			$b = "(";
 		}
 		if (is_numeric($a[$i])) {
-			$a[$i] = roundDown(($a[$i] - 32) / 1.8);
+			$a[$i] = round(($a[$i] - 32) / 1.8,1);
 		}
 		$html .= $b . $a[$i] . " ";
 		$b = '';
 		$i++;
 	}
 	return $html;
+}
+function ounceToGram($a) {
+	$a = explode(' ', $a);
+	$l = count($a);
+	$i = 0;
+	while ($i < $l) {
+		if ( $a[$i][0] == "(" ) {
+			$c = explode("(",$a[$i]);
+			$a[$i] = $c[1];
+			$b = "(";
+		}
+		if (is_numeric($a[$i])) {
+			$a[$i] = round($a[$i] * 28.349,1);
+		}
+		$html .= $b . $a[$i] . " ";
+		$b = '';
+		$i++;
+	}
+	return $html;
+}
+function tspToMl($a) {
+	$a = explode(' ', $a);
+	$l = count($a);
+	$i = 0;
+	while ($i < $l) {
+		if ( $a[$i][0] == "(" ) {
+			$c = explode("(",$a[$i]);
+			$a[$i] = $c[1];
+			$b = "(";
+		}
+		if (is_numeric($a[$i])) {
+			$a[$i] = round($a[$i] * 4.929,1);
+		}
+		$html .= $b . $a[$i] . " ";
+		$b = '';
+		$i++;
+	}
+	return $html . ' millimeters';
+}
+function tbspToMl($a) {
+	$a = explode(' ', $a);
+	$l = count($a);
+	$i = 0;
+	while ($i < $l) {
+		if ( $a[$i][0] == "(" ) {
+			$c = explode("(",$a[$i]);
+			$a[$i] = $c[1];
+			$b = "(";
+		}
+		if (is_numeric($a[$i])) {
+			$a[$i] = round($a[$i] * (4.929 * 3),1);
+		}
+		$html .= $b . $a[$i] . " ";
+		$b = '';
+		$i++;
+	}
+	return $html . ' millimeters';
+}
+function cupToMl($a) {
+	$a = explode(' ', $a);
+	$l = count($a);
+	$i = 0;
+	while ($i < $l) {
+		if ( $a[$i][0] == "(" ) {
+			$c = explode("(",$a[$i]);
+			$a[$i] = $c[1];
+			$b = "(";
+		}
+		if (is_numeric($a[$i])) {
+			$a[$i] = round($a[$i] * (4.929 * 48),1);
+		}
+		$html .= $b . $a[$i] . " ";
+		$b = '';
+		$i++;
+	}
+	return $html . ' millimeters';
 }
 function roundDown($number){
     return round($number * 2) / 2;
@@ -36,8 +112,11 @@ tr:nth-of-type
 			<h1><?php echo $title; ?></h1>
 		</header>
 
-		<div>
+		<div class="tables">
 			<table>
+				<caption>
+					Donneness of food
+				</caption>
 				<thead>
 					<tr>
 						<th>Ingredient</th>
@@ -123,10 +202,78 @@ tr:nth-of-type
 				</tbody>
 			</table>
 			<table>
+				<caption>
+					Common, and Oven Temperatures
+				</caption>
 				<tr>
 					<th>F</th>
 					<th>C</th>
 					<th>Gas</th>
+				</tr>
+				<tr>
+					<td>110</td>
+					<td><?php echo ftoc("110"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>115</td>
+					<td><?php echo ftoc("115"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>120</td>
+					<td><?php echo ftoc("120"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>125</td>
+					<td><?php echo ftoc("125"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>130</td>
+					<td><?php echo ftoc("130"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>135</td>
+					<td><?php echo ftoc("135"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>140</td>
+					<td><?php echo ftoc("140"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>145</td>
+					<td><?php echo ftoc("145"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>150</td>
+					<td><?php echo ftoc("150"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>155</td>
+					<td><?php echo ftoc("155"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>160</td>
+					<td><?php echo ftoc("160"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>175</td>
+					<td><?php echo ftoc("175"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>180</td>
+					<td><?php echo ftoc("180"); ?></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td>225</td>
@@ -182,6 +329,239 @@ tr:nth-of-type
 					<td>475</td>
 					<td><?php echo ftoc("475"); ?></td>
 					<td>9</td>
+				</tr>
+			</table>
+			<table>
+				<caption>
+					Conversion for ingredients commonly used in baking
+				</caption>
+				<tr>
+					<th>Ingredient</th>
+					<th>Ounces</th>
+					<th>Grams</th>
+				</tr>
+				<tr>
+					<td>1 cup all-purpose flour</td>
+					<td>5</td>
+					<td><?php echo ounceToGram("5"); ?></td>
+				</tr>
+				<tr>
+					<td>1 cup cake flour</td>
+					<td>4</td>
+					<td><?php echo ounceToGram("4"); ?></td>
+				</tr>
+				<tr>
+					<td>1 cup whole-wheat flour</td>
+					<td>5.5</td>
+					<td><?php echo ounceToGram("5.5"); ?></td>
+				</tr>
+				<tr>
+					<td>1 cup granulated (white) sugar</td>
+					<td>7</td>
+					<td><?php echo ounceToGram("7"); ?></td>
+				</tr>
+				<tr>
+					<td>1 cup packed brown sugar (light or dark)</td>
+					<td>7</td>
+					<td><?php echo ounceToGram("7"); ?></td>
+				</tr>
+				<tr>
+					<td>1 cup confectioner’s sugar</td>
+					<td>4</td>
+					<td><?php echo ounceToGram("4"); ?></td>
+				</tr>
+				<tr>
+					<td>1 cup cocoa powder</td>
+					<td>3</td>
+					<td><?php echo ounceToGram("3"); ?></td>
+				</tr>
+				<tr>
+					<td>1 tablespoon butter</td>
+					<td>0.5</td>
+					<td><?php echo ounceToGram(".5"); ?></td>
+				</tr>
+			</table>
+			<table>
+				<caption>
+					Volume conversions
+				</caption>
+				<tr>
+					<th>US</th>
+					<th>Metric</th>
+				</tr>
+				<tr>
+					<td>1 teaspoon</td>
+					<td><?php echo tspToMl("1"); ?></td>
+				</tr>
+				<tr>
+					<td>2 teaspoon</td>
+					<td><?php echo tspToMl("2"); ?></td>
+				</tr>
+				<tr>
+					<td>1 tablespoon</td>
+					<td><?php echo tbspToMl("1"); ?></td>
+				</tr>
+				<tr>
+					<td>2 tablespoon</td>
+					<td><?php echo tbspToMl("2"); ?></td>
+				</tr>
+				<tr>
+					<td>0.25 cup</td>
+					<td><?php echo cupToMl(".25"); ?></td>
+				</tr>
+				<tr>
+					<td>0.5 cup</td>
+					<td><?php echo cupToMl(".5"); ?></td>
+				</tr>
+				<tr>
+					<td>0.75 cup</td>
+					<td><?php echo cupToMl(".75"); ?></td>
+				</tr>
+				<tr>
+					<td>1 cup</td>
+					<td><?php echo cupToMl("1"); ?></td>
+				</tr>
+				<tr>
+					<td>1.25 cup</td>
+					<td><?php echo cupToMl("1.25"); ?></td>
+				</tr>
+				<tr>
+					<td>1.5 cup</td>
+					<td><?php echo cupToMl("1.5"); ?></td>
+				</tr>
+				<tr>
+					<td>2 cup</td>
+					<td><?php echo cupToMl("2"); ?></td>
+				</tr>
+				<tr>
+					<td>2.5 cup</td>
+					<td><?php echo cupToMl("2.5"); ?></td>
+				</tr>
+				<tr>
+					<td>3 cup</td>
+					<td><?php echo cupToMl("3"); ?></td>
+				</tr>
+				<tr>
+					<td>4 cup (1 quart)</td>
+					<td><?php echo cupToMl("4"); ?></td>
+				</tr>
+				<tr>
+					<td>4.226 cup (1.06 quart)</td>
+					<td><?php echo cupToMl("4.226"); ?></td>
+				</tr>
+				<tr>
+					<td>4 quarts (1 gallon)</td>
+					<td><?php echo cupToMl("16"); ?></td>
+				</tr>
+			</table>
+			<table>
+				<caption>
+					Weight conversions
+				</caption>
+				<tr>
+					<th>Ounces</th>
+					<th>Grams</th>
+				</tr>
+				<tr>
+					<td>0.5</td>
+					<td><?php echo ounceToGram(".5"); ?></td>
+				</tr>
+				<tr>
+					<td>0.75</td>
+					<td><?php echo ounceToGram(".75"); ?></td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td><?php echo ounceToGram("1"); ?></td>
+				</tr>
+				<tr>
+					<td>1.5</td>
+					<td><?php echo ounceToGram("1.5"); ?></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td><?php echo ounceToGram("2"); ?></td>
+				</tr>
+				<tr>
+					<td>2.5</td>
+					<td><?php echo ounceToGram("2.5"); ?></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td><?php echo ounceToGram("3"); ?></td>
+				</tr>
+				<tr>
+					<td>3.5</td>
+					<td><?php echo ounceToGram("3.5"); ?></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td><?php echo ounceToGram("4"); ?></td>
+				</tr>
+				<tr>
+					<td>4.5</td>
+					<td><?php echo ounceToGram("4.5"); ?></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td><?php echo ounceToGram("5"); ?></td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td><?php echo ounceToGram("6"); ?></td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td><?php echo ounceToGram("7"); ?></td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td><?php echo ounceToGram("8"); ?></td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td><?php echo ounceToGram("9"); ?></td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td><?php echo ounceToGram("10"); ?></td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td><?php echo ounceToGram("12"); ?></td>
+				</tr>
+				<tr>
+					<td>16 (1 pound)</td>
+					<td><?php echo ounceToGram("16"); ?></td>
+				</tr>
+			</table>
+			<table>
+				<caption>
+					Storing food
+				</caption>
+				<tr>
+					<th>Food</th>
+					<th>Temperature</th>
+				</tr>
+				<tr>
+					<td>Fish and shellfish</td>
+					<td><?php echo ftoc("30 to 34 degrees"); ?></td>
+				</tr>
+				<tr>
+					<td>Meat and poultry</td>
+					<td><?php echo ftoc("32 to 36 degrees"); ?></td>
+				</tr>
+				<tr>
+					<td>Dairy products</td>
+					<td><?php echo ftoc("36 to 40 degrees"); ?></td>
+				</tr>
+				<tr>
+					<td>Eggs</td>
+					<td><?php echo ftoc("38 to 40 degrees"); ?></td>
+				</tr>
+				<tr>
+					<td>Produce</td>
+					<td><?php echo ftoc("40 to 45 degrees"); ?></td>
 				</tr>
 			</table>
 		</div>

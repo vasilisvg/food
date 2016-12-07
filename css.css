@@ -123,13 +123,15 @@ aside li:before {
 	font-size: 23.3vw;
 }
 
-
+.tables {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 table {
 	table-layout: auto;
 	border-collapse: collapse;
 	min-width: 20em;
-}
-table + table {
 	margin-top: 2em;
 }
 th {
@@ -144,8 +146,8 @@ th, td {
 thead th,
 th[colspan] {
 	font-style: normal;
-	border-top: 0;
 }
-th[colspan] {
+th[colspan],
+caption {
 	border-top: 3px double black;
 }
