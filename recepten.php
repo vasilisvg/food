@@ -51,6 +51,12 @@ if ($home !== 1) {
 		</a>
 	</article>
 	<article>
+		<a href="<?php echo $path; ?>tables/">
+			<h2>Cooking Tables</h2>
+			<p>Some numbers in tables for cooking nerds</p>
+		</a>
+	</article>
+	<article>
 		<a href="<?php echo $path; ?>cucumber-salad/">
 			<h2>Cucumber Salad</h2>
 			<p>Minimal raw food</p>
@@ -60,12 +66,6 @@ if ($home !== 1) {
 		<a href="<?php echo $path; ?>chocolate-mud/">
 			<h2>Dark Stracciatella Mud</h2>
 			<p>Dark chocolate ice cream with extra bits of dark chocolate</p>
-		</a>
-	</article>
-	<article>
-		<a href="<?php echo $path; ?>tables/">
-			<h2>Cooking Tables</h2>
-			<p>Some numbers in tables for cooking nerds</p>
 		</a>
 	</article>
 	<article>
