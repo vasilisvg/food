@@ -112,8 +112,20 @@ tr:nth-of-type
 			<h1><?php echo $title; ?></h1>
 		</header>
 
+		<nav id="toc">
+			<ul>
+				<li><a href="#done">Donneness of food</a></li>
+				<li><a href="#common">Common, and Oven Temperatures</a></li>
+				<li><a href="#baking">Conversion for ingredients commonly used in baking</a></li>
+				<li><a href="#volume">Volume conversions</a></li>
+				<li><a href="#weight">Weight conversions</a></li>
+				<li><a href="#storing">Storing food</a></li>
+				<li><a href="#cooling">Cooling food</a></li>
+			</ul>
+		</nav>
+
 		<div class="tables">
-			<table>
+			<table id="done">
 				<caption>
 					Donneness of food
 				</caption>
@@ -201,7 +213,7 @@ tr:nth-of-type
 					</tr>
 				</tbody>
 			</table>
-			<table>
+			<table id="common">
 				<caption>
 					Common, and Oven Temperatures
 				</caption>
@@ -386,7 +398,7 @@ tr:nth-of-type
 					<td>9</td>
 				</tr>
 			</table>
-			<table>
+			<table id="baking">
 				<caption>
 					Conversion for ingredients commonly used in baking
 				</caption>
@@ -436,7 +448,7 @@ tr:nth-of-type
 					<td><?php echo ounceToGram(".5"); ?></td>
 				</tr>
 			</table>
-			<table>
+			<table id="volume">
 				<caption>
 					Volume conversions
 				</caption>
@@ -509,7 +521,7 @@ tr:nth-of-type
 					<td><?php echo cupToMl("16"); ?></td>
 				</tr>
 			</table>
-			<table>
+			<table id="weight">
 				<caption>
 					Weight conversions
 				</caption>
@@ -590,7 +602,7 @@ tr:nth-of-type
 					<td><?php echo ounceToGram("16"); ?></td>
 				</tr>
 			</table>
-			<table>
+			<table id="storing">
 				<caption>
 					Storing food
 				</caption>
@@ -619,7 +631,7 @@ tr:nth-of-type
 					<td><?php echo ftoc("40 to 45 degrees"); ?></td>
 				</tr>
 			</table>
-			<div>
+			<div id="cooling">
 				<h2>Cooling food</h2>
 				<h3>Official (USA)</h3>
 				<p>Cool it down to <?php echo ftoc("70"); ?> degrees within 2 hours, and to <?php echo ftoc("40"); ?> degrees in the four hours after that.</p>
