@@ -624,7 +624,7 @@ tr:nth-of-type
 				<h3>Official (USA)</h3>
 				<p>Cool it down to <?php echo ftoc("70"); ?> degrees within 2 hours, and to <?php echo ftoc("40"); ?> degrees in the four hours after that.</p>
 				<h3>Practical:</h3>
-				<p>Cool it down on the coutertop for an hour. It should be between <?php echo ftoc("80 and 90"); ?>. Put it in the fridge.</p>
+				<p>Cool it down on the countertop for an hour. It should be between <?php echo ftoc("80 and 90"); ?>. Put it in the fridge.</p>
 			</div>
 
 		</div>
