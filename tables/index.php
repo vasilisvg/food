@@ -211,6 +211,46 @@ tr:nth-of-type
 					<th>Gas</th>
 				</tr>
 				<tr>
+					<td>30</td>
+					<td><?php echo ftoc("30"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>40</td>
+					<td><?php echo ftoc("40"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>50</td>
+					<td><?php echo ftoc("50"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>60</td>
+					<td><?php echo ftoc("60"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>70</td>
+					<td><?php echo ftoc("70"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>80</td>
+					<td><?php echo ftoc("80"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>90</td>
+					<td><?php echo ftoc("90"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>100</td>
+					<td><?php echo ftoc("100"); ?></td>
+					<td></td>
+				</tr>
+				<tr>
 					<td>110</td>
 					<td><?php echo ftoc("110"); ?></td>
 					<td></td>
