@@ -160,6 +160,16 @@ caption {
 
 #toc {
 	margin-top: 2em;
+	max-width: 20em;
+}
+#toc ol {
+	margin: 0;
+	padding: 0;
+}
+@media (max-width: 20em) {
+	#toc ol {
+		padding: 0 0 0 1em;
+	}
 }
 #toc li a {
 	display: block;
