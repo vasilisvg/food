@@ -157,3 +157,11 @@ caption {
 	max-width: 20em;
 	margin-top: 2em;
 }
+
+#toc {
+	margin-top: 2em;
+}
+#toc li a {
+	display: block;
+	padding: .3em;
+}

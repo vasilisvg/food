@@ -113,7 +113,7 @@ tr:nth-of-type
 		</header>
 
 		<nav id="toc">
-			<ul>
+			<ol>
 				<li><a href="#done">Donneness of food</a></li>
 				<li><a href="#common">Common, and Oven Temperatures</a></li>
 				<li><a href="#baking">Conversion for ingredients commonly used in baking</a></li>
@@ -121,7 +121,7 @@ tr:nth-of-type
 				<li><a href="#weight">Weight conversions</a></li>
 				<li><a href="#storing">Storing food</a></li>
 				<li><a href="#cooling">Cooling food</a></li>
-			</ul>
+			</ol>
 		</nav>
 
 		<div class="tables">
