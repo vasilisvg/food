@@ -63,6 +63,12 @@ if ($home !== 1) {
 		</a>
 	</article>
 	<article>
+		<a href="<?php echo $path; ?>tables/">
+			<h2>Cooking Tables</h2>
+			<p>Some numbers in tables for cooking nerds</p>
+		</a>
+	</article>
+	<article>
 		<a href="<?php echo $path; ?>drunken-cow/">
 			<h2>Drunken Cow</h2>
 			<p>Stew with red wine, served with tiny pasta (or whatever you like with stew)</p>
