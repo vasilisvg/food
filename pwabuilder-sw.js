@@ -1,6 +1,6 @@
 //This is the service worker with the Cache-first network
 
-var CACHE = 'pwabuilder-precache';
+var CACHE = '/likes/food/pwabuilder-precache';
 var precacheFiles = [
       '/likes/food/',
       '/likes/food/chicken-broth',
