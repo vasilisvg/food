@@ -2,26 +2,26 @@
 
 var CACHE = 'pwabuilder-precache';
 var precacheFiles = [
-      'index.php',
-      'chicken-broth',
-      'chili-con-carne',
-      'chocolate-mud',
-      'cucumber-salad',
-      'drunken-cow',
-      'drunken-pig',
-      'fakies-fuck-yes',
-      'hamburgers',
-      'mashed-potatoes',
-      'mercimek-corba',
-      'meringues',
-      'pasta-di-papa',
-      'puree-di-papa',
-      'roast-chicken',
-      'salade-de-carottes',
-      'spaghetti-carbonara',
-      'tables',
-      'tender-tenderloin',
-      'tsipoura'
+      '/likes/food/',
+      '/likes/food/chicken-broth',
+      '/likes/food/chili-con-carne',
+      '/likes/food/chocolate-mud',
+      '/likes/food/cucumber-salad',
+      '/likes/food/drunken-cow',
+      '/likes/food/drunken-pig',
+      '/likes/food/fakies-fuck-yes',
+      '/likes/food/hamburgers',
+      '/likes/food/mashed-potatoes',
+      '/likes/food/mercimek-corba',
+      '/likes/food/meringues',
+      '/likes/food/pasta-di-papa',
+      '/likes/food/puree-di-papa',
+      '/likes/food/roast-chicken',
+      '/likes/food/salade-de-carottes',
+      '/likes/food/spaghetti-carbonara',
+      '/likes/food/tables',
+      '/likes/food/tender-tenderloin',
+      '/likes/food/tsipoura'
     ];
 
 //Install stage sets up the cache-array to configure pre-cache content
