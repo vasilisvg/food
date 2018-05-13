@@ -1,14 +1,35 @@
-{
-  "lang": "en",
-  "background_color": "#ffffff",
-  "name": "Vasilis likes cooking",
-  "short_name": "Food",
-  "display": "standalone",
-  "icons": [
-    {
-      "src": "YOU-NEED-TO-HAVE-A-144-x-144-ICON.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    }
-  ]
-}
+{"dir" : "ltr",
+    "lang" : "en",
+    "name" : "Vasilis likes cooking",
+    "scope" : "/likes/food/",
+    "display" : "browser",
+    "start_url" : "https://vasilis.nl/likes/food/",
+    "short_name" : "Food",
+    "theme_color" : "transparent",
+    "description" : "",
+    "orientation" : "any",
+    "background_color" : "transparent",
+    "related_applications" : "",
+    "prefer_related_applications" : "false",
+    "icons" : [
+        {
+            "src": "https://vasilis.nl/favicon.ico",
+            "sizes": "16x16 32x32 48x48"
+        },
+        {
+            "src": "https://vasilis.nl/mstile-70x70.png?v=eEL9eKKPP8",
+            "sizes": "70x70"
+        },
+        {
+            "src": "https://vasilis.nl/mstile-150x150.png?v=eEL9eKKPP8",
+            "sizes": "150x150"
+        },
+        {
+            "src": "https://vasilis.nl/mstile-310x310.png?v=eEL9eKKPP8",
+            "sizes": "310x310"
+        },
+        {
+            "src": "https://vasilis.nl/mstile-310x150.png?v=eEL9eKKPP8",
+            "sizes": "310x150"
+        }
+    ]}
