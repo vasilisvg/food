@@ -21,7 +21,14 @@ var precacheFiles = [
       '/likes/food/spaghetti-carbonara/',
       '/likes/food/tables/',
       '/likes/food/tender-tenderloin/',
-      '/likes/food/tsipoura/'
+      '/likes/food/tsipoura/',
+      'https://fonts.typotheque.com/WF-023273-009420.css',
+      'https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-023273-009420-000375-0fa0db4de6d3b06cd6a909a01ecd678c.woff2',
+      'https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-023273-009420-000378-83ed50d0e53490f88b5abcc94999252e.woff2',
+      'https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-023273-009420-000377-68802e48f8a1f1198bf71ef58ec0e295.woff2',
+      'https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-023273-009420-000375-0fa0db4de6d3b06cd6a909a01ecd678c.woff',
+      'https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-023273-009420-000378-83ed50d0e53490f88b5abcc94999252e.woff',
+      'https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-023273-009420-000377-68802e48f8a1f1198bf71ef58ec0e295.woff'
     ];
 
 //Install stage sets up the cache-array to configure pre-cache content
