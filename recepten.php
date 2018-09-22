@@ -87,6 +87,12 @@ if ($home !== 1) {
 		</a>
 	</article>
 	<article>
+		<a href="<?php echo $path; ?>kotosoupa/">
+			<h2>Kotòsoupa</h2>
+			<p>Chicken soup.</p>
+		</a>
+	</article>
+	<article>
 		<a href="<?php echo $path; ?>hamburgers/">
 			<h2>Hamburgers</h2>
 			<p>Hand made.</p>
