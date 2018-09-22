@@ -30,8 +30,8 @@ include '../head.php';
 
 			<h2>Cooking</h2>
 			<p>Put the <span class="item-1">meat</span> in a sous-vide bag, add <span class="item-2">olive oil</span>, <span class="item-3">garlic cloves</span>, <span class="item-4">thyme</span> and <span class="item-5">pepper</span>. Put the bag in the waterbath and leave it there for four hours. It will be perfect on the inside. Not on the outside. Not yet.</p>
-			<p>Make sure the BBQ is very, very, very hot.</p>
-			<p>Take out the meat, and pat it dry: we want to roast it, not cook it. Put it on the BBQ. <a href="https://vasilis.nl/voto/cote-de-boeuf/180401160100/">It may catch fire</a>, which is fine. Burn a good crust on all sides.</p>
+			<p>Make sure the barbecue is very, very, very hot.</p>
+			<p>Take out the meat, and pat it dry: we want to roast it, not cook it. Put it on the barbecue. <a href="https://vasilis.nl/voto/cote-de-boeuf/180401160100/">It may catch fire</a>, which is fine. Burn a good crust on all sides.</p>
 			<p>Cut the meat — how do you say it — against the fibers. Add <span class="item-6">salt</span>. Enjoy.</p>
 		</div>
 	</article>
