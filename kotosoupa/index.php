@@ -20,13 +20,13 @@ header h1 {
 				<li><span class="item-2">1 big onion</span></li>
 				<li><span class="item-3">Some carrots</span></li>
 				<li><span class="item-4">Rice</span></li>
-				<li><span class="item-5">little potatoes</span></li>
+				<li><span class="item-5">Little potatoes</span></li>
 				<li><span class="item-6">Laurel leaves</span></li>
 				<li><span class="item-7">Thyme</span></li>
 				<li><span class="item-8">Oregano</span></li>
 				<li><span class="item-9">Salt and pepper</span></li>
 				<li><span class="item-10">Lemon juice</span></li>
-				<li><span class="item-11">bread</span></li>
+				<li><span class="item-11">Bread</span></li>
 			</ul>
 		</aside>
 		<div>
