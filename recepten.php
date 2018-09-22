@@ -57,6 +57,12 @@ if ($home !== 1) {
 		</a>
 	</article>
 	<article>
+		<a href="<?php echo $path; ?>cote-de-boeuf/">
+			<h2>Côte de bœuf</h2>
+			<p>The sous-vide BBQ version.</p>
+		</a>
+	</article>
+	<article>
 		<a href="<?php echo $path; ?>cucumber-salad/">
 			<h2>Cucumber Salad</h2>
 			<p>Minimal raw food</p>
