@@ -52,6 +52,12 @@ if ($home !== 1) {
 		</a>
 	</article>
 	<article>
+		<a href="<?php echo $path; ?>chili-sin-carne/">
+			<h2>Chili sin Carne</h2>
+			<p>A very tasty vegan Chili.</p>
+		</a>
+	</article>
+	<article>
 		<a href="<?php echo $path; ?>tables/">
 			<h2>Cooking Tables</h2>
 			<p>Some numbers in tables for cooking nerds</p>
